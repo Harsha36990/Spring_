@@ -9,11 +9,13 @@ import Trailer from './components/trailer/Trailer';
 import Reviews from './components/reviews/Reviews';
 import NotFound from './components/notFound/NotFound';
 
+
 function App() {
 
   const [movies, setMovies] = useState();
   const [movie, setMovie] = useState();
   const [reviews, setReviews] = useState([]);
+  
 
   const getMovies = async () =>{
     

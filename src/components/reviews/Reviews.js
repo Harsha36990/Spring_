@@ -74,7 +74,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <hr />
+                                        <hr /> 
                                     </Col>
                                 </Row>                                
                             </>
@@ -85,7 +85,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
         </Row>
         <Row>
             <Col>
-                <hr />
+                <hr/>
             </Col>
         </Row>        
     </Container>
